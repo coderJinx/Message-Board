@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+}
+.title{
+    margin: 50px 50px;
+}
+.title h1{
+    color: slateblue;
+}
+.title h1 small{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #716b6b;
+}
+hr{
+    margin-top: 20px;
+}
+
+
+.comments{
+    height: 500px;
+    width: 100%;
+    font-size: 14px;
+    /*background-color: darkgrey;*/
+}
+.content{
+    margin-left: 50px;
+}
+.content .name{
+    width: 870px;
+    height: 25px;
+    margin-top: 8px;
+}
+.content textarea{
+    width: 870px;
+    height: 300px;
+    margin-top: 8px;
+    font-size: 15px;
+}
+.content .message_title{
+    display: block;
+    margin-top: 20px;
+}
+button{
+    height: 30px;
+    width: 80px;
+    background-color: #31e85a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}

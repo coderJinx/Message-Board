@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../public/css/post.css">
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <h1><a href="/">BACK TO HOME</a><small>Message Board</small></h1>
+            <hr>
+        </div>
+    </div>
+    <div class="comments">
+        <form action="/comments" method="get">
+            <div class="content">
+                <span class="name_title">YOU NAME:</span><br>
+                <input type="text" name="name" class="name" id="put_name" required minlength="2" maxlength="10" placeholder="please input your name">
+                <span class="message_title">LEAVING A MESSAGE:</span>
+                <textarea placeholder="what do you want..." required minlength="5" maxlength="20" name="message"></textarea><br>
+                <button type="submit">report</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

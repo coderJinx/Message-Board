@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <h1>Example page header<small>Message Board</small></h1>
+            <a href="/post"><button>submit</button></a>
+
+            <hr>
+        </div>
+    </div>
+    <div class="comments">
+        <div class="content">
+            <ul class="content-ul">
+<!--                <li>message demo</li>-->
+<!--                <li>message demo</li>-->
+<!--                <li>message demo</li>-->
+<!--                <li>message demo</li>-->
+<!--                <li>message demo</li>-->
+<!--                <li>message demo</li>-->
+<!--                <li>message demo</li>-->
+<!--                <li>message demo</li>-->
+                {{each comments}}
+                <li>{{$value.name}}: {{$value.message}}<span class="pull-right">{{$value.dataTime}}</span></li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
